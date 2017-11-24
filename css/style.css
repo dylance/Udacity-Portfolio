@@ -13,6 +13,12 @@
   opacity: 90%;
 }
 
+.project-img{
+  padding-top: 20px;
+  padding-bottom:20px;
+  /*border: solid; */
+}
+
 .git-logo{
 
   display:inline-block;
