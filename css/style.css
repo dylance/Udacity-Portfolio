@@ -35,7 +35,7 @@ span{
 }
 
 .project-img:hover {
-  background-color: white;
+  background-color: #f1f1f1;
   border-color: blue;
 
 }
@@ -43,8 +43,8 @@ span{
 .footer-content{
   padding: 10px;
   margin-top:20px;
-
-  border-top:1px solid #eee}
+  background-color: #fafafa;
+  border-top: 1px solid #a6a6a6}
 }
 .git-logo{
 
@@ -84,6 +84,12 @@ footer{
 /*  background-color: #D3D3D3;*/
 }
 
+.header-page{
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom:2px;
+  margin:15px 0 15px;
+
+}
 
 
 
@@ -91,7 +97,7 @@ footer{
 
 .project-img{color:#22acdd}
 
-.project-img:focus,.project-img:hover{opacity:.7}
+.project-img:focus,.project-img:hover{opacity:.7;border:2px solid;}
 
 
 
