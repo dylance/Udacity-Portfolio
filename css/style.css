@@ -1,115 +1,62 @@
-span{
-  display:inline;
+body{
+  display: inline-block;
 }
-
-.head-title {
-  text-align: right;
+.header-page{
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom:2px;
+  margin:15px 0 15px;
 }
-
-.hero-img {
-  height: auto;
-  margin: 0;
-}
-
-.main-img{
-  opacity: 1;
-
-}
-
-
-
 .head-image {
   padding-top: 15px;
   padding-bottom: 30px;
   opacity: 90%;
 }
-
-.project-img{
-
-  padding: 8px 8px 8px 8px;
-/*  border: solid;
-  border-width: thin;
-  border: solid; */
-
-
+.head-title {
+  text-align: right;
 }
-
+.main-img{
+  opacity: 1;
+}
+.hero-img {
+  height: auto;
+  margin: 0;
+}
+/*Work-Header: undocumented class*/
+.project-img{
+  padding: 8px 8px 8px 8px;
+}
 .project-img:hover {
   background-color: #f1f1f1;
   border-color: blue;
-
 }
-
+.project-title{
+  text-align: center;
+}
+.project-img{color:#22acdd}
+.project-img:focus,.project-img:hover{opacity:.7;border:2px solid;}
 .footer-content{
   padding: 10px;
   margin-top:20px;
   background-color: #fafafa;
-  border-top: 1px solid #a6a6a6}
+  border-top: 1px solid #a6a6a6;
 }
-.git-logo{
-
-  display:inline-block;
-  margin:auto;
-}
-
 .git-log{
- padding-top: 0px;
+  padding-top: 0px;
   text-align: center;
 }
-
-.project-title{
-  text-align: center;
+.foot-img{
+   margin-left: 10px;
+   margin-right: 10px;
 }
-
-.footer-link{
-  text-align: center;
-}
-
-
-
-
-
-
 .footer-copyright{
   padding-top: 8px;
   text-align: center;
 }
 
-.foot-img{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-footer{
-/*  background-color: #D3D3D3;*/
-}
-
-.header-page{
-  border-bottom: 1px solid #a6a6a6;
-  padding-bottom:2px;
-  margin:15px 0 15px;
-
-}
-
-
-
-
-
-.project-img{color:#22acdd}
-
-.project-img:focus,.project-img:hover{opacity:.7;border:2px solid;}
-
-
-
-
-
 @media screen and (max-width: 768px) {
-
   .Work-Header{
     text-align: center;
-
   }
-
   .img-box{
     width: 75%;
     height:75%;
@@ -117,5 +64,4 @@ footer{
     align-content: center;
     border: thick;
   }
-
 }
