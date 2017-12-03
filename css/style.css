@@ -28,16 +28,21 @@ body {
 /*Work-Header: undocumented class*/
 .project-img{
   padding: 8px 8px 8px 8px;
+  width: 100%;
+  transition: width .2s;
 }
+
 .project-img:hover {
-  background-color: #f1f1f1;
-  border-color: blue;
+  display: block;
+  margin: 0 auto;
+  width: 98%;
 }
+
 .project-title{
   text-align: center;
 }
 .project-img{color:#22acdd}
-.project-img:focus,.project-img:hover{opacity:.7;border:2px solid;}
+.project-img:focus,.project-img:hover{opacity:.7;border:none;}
 .footer-content{
   padding: 10px;
   margin-top:20px;
