@@ -29,20 +29,23 @@ body {
 .project-img{
   padding: 8px 8px 8px 8px;
   width: 100%;
-  transition: width .2s;
+  transition: .2s;
 }
 
 .project-img:hover {
   display: block;
   margin: 0 auto;
-  width: 98%;
+  width: 99%;
+  border-radius: 12px;
 }
 
 .project-title{
   text-align: center;
 }
-.project-img{color:#22acdd}
-.project-img:focus,.project-img:hover{opacity:.7;border:none;}
+.project-img{
+ color:#22acdd;
+}
+.project-img:focus,.project-img:hover{opacity:1;border:none;}
 .footer-content{
   padding: 10px;
   margin-top:20px;
@@ -58,13 +61,17 @@ body {
    margin-right: 10px;
 }
 
-.photoGetsBigger {
+.noUnderline:hover {
+  text-decoration: none;
+}
+
+.photoGetsSmaller {
   height: 25px;
   width: 25px;
   transition: all .15s;
 }
 
-.photoGetsBigger:hover {
+.photoGetsSmaller:hover {
   height: 28px;
   width: 28px;
 }
