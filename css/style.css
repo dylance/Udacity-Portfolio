@@ -45,7 +45,7 @@ body {
 .project-img{
  color:#22acdd;
 }
-.project-img:focus,.project-img:hover{opacity:1;border:none;}
+.project-img:focus,.project-img:hover{opacity:1;border:none;cursor:pointer;}
 .footer-content{
   padding: 10px;
   margin-top:20px;
