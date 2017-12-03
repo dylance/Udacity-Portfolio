@@ -65,20 +65,23 @@ body {
   text-decoration: none;
 }
 
-.photoGetsSmaller {
+.photoGetsLarger {
   height: 25px;
   width: 25px;
   transition: all .15s;
 }
 
-.photoGetsSmaller:hover {
+.photoGetsLarger:hover {
   height: 28px;
   width: 28px;
 }
 
-.footer-copyright{
-  padding-top: 8px;
+.footer-content {
   text-align: center;
+}
+
+.footer-copyright {
+  margin-top: 8px;
 }
 
 @media screen and (max-width: 768px) {
