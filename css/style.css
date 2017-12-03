@@ -52,6 +52,18 @@ body {
    margin-left: 10px;
    margin-right: 10px;
 }
+
+.photoGetsBigger {
+  height: 25px;
+  width: 25px;
+  transition: all .15s;
+}
+
+.photoGetsBigger:hover {
+  height: 28px;
+  width: 28px;
+}
+
 .footer-copyright{
   padding-top: 8px;
   text-align: center;
