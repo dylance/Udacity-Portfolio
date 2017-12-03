@@ -28,16 +28,24 @@ body {
 /*Work-Header: undocumented class*/
 .project-img{
   padding: 8px 8px 8px 8px;
+  width: 100%;
+  transition: .2s;
 }
+
 .project-img:hover {
-  background-color: #f1f1f1;
-  border-color: blue;
+  display: block;
+  margin: 0 auto;
+  width: 99%;
+  border-radius: 12px;
 }
+
 .project-title{
   text-align: center;
 }
-.project-img{color:#22acdd}
-.project-img:focus,.project-img:hover{opacity:.7;border:2px solid;}
+.project-img{
+ color:#22acdd;
+}
+.project-img:focus,.project-img:hover{opacity:1;border:none;cursor:pointer;}
 .footer-content{
   padding: 10px;
   margin-top:20px;
@@ -52,6 +60,22 @@ body {
    margin-left: 10px;
    margin-right: 10px;
 }
+
+.noUnderline:hover {
+  text-decoration: none;
+}
+
+.photoGetsSmaller {
+  height: 25px;
+  width: 25px;
+  transition: all .15s;
+}
+
+.photoGetsSmaller:hover {
+  height: 28px;
+  width: 28px;
+}
+
 .footer-copyright{
   padding-top: 8px;
   text-align: center;
