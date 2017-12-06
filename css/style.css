@@ -19,8 +19,9 @@ body {
   text-align: right;
 }
 .main-img{
-  opacity: 1;
+  opacity: .9;
 }
+.main-img:focus,.main-img:hover{opacity:1;border:none;cursor:pointer;}
 .hero-img {
   height: auto;
   margin: 0;
@@ -31,6 +32,7 @@ body {
   padding: 8px 8px 8px 8px;
   width: 100%;
   transition: .2s;
+  opacity: .9;
 }
 /*
 .project-img:hover {
@@ -46,7 +48,7 @@ body {
 .project-img{
  color:#22acdd;
 }   line below, i just added transform and changed the opacity*/
-.project-img:focus,.project-img:hover{transform: scale(1.05);opacity:.9;border:none;cursor:pointer;}
+.project-img:focus,.project-img:hover{transform: scale(1.05);opacity:1;border:none;cursor:pointer;}
 
 
 .footer-content{
