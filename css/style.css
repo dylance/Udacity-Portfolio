@@ -17,6 +17,8 @@ body {
 }
 .head-title {
   text-align: right;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
 }
 .main-img{
   opacity: .9;
